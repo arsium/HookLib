@@ -1,0 +1,6 @@
+F:\Personal\HookFunction\HookLib\bin\Release\HookLib.dll
+F:\Personal\HookFunction\HookLib\bin\Release\HookLib.pdb
+F:\Personal\HookFunction\HookLib\obj\Release\HookLib.csproj.AssemblyReference.cache
+F:\Personal\HookFunction\HookLib\obj\Release\HookLib.csproj.CoreCompileInputs.cache
+F:\Personal\HookFunction\HookLib\obj\Release\HookLib.dll
+F:\Personal\HookFunction\HookLib\obj\Release\HookLib.pdb
