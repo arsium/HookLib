@@ -1,5 +1,5 @@
 # HookLib
-A library to hook functions !
+A library to hook functions locally !
 
 How to use it ?
 
