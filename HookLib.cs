@@ -27,7 +27,7 @@ namespace HookLib
             IntPtr AddressOfLib = NativeAPI.GetModuleHandle(LibToHook);//getting lib address in our program
             IntPtr FunctionAddress = NativeAPI.GetProcAddress(AddressOfLib, FunctionToHook);//getting function address in our program
             NativeAPI.ReadProcessMemory(ProcessToHook, FunctionAddress, OldBytes, SizeOfNewBytes, 0);//read the original bytes from our function address and store them if you want to restore
-            return IsHooked = NativeAPI.WriteProcessMemory(ProcessToHook, FunctionAddress, NewBytes, SizeOfNewBytes, 0);// here we hooked the function : the address of our function is replace by our code (asm or opcode !)
+            return IsHooked = NativeAPI.WriteProcessMemory(ProcessToHook, FunctionAddress, NewBytes, SizeOfNewBytes, 0);// here we hooked the function : the bytes at function address are replaced by our code (asm or opcode !)
         }
      
         public bool UnHookedFunction() 
